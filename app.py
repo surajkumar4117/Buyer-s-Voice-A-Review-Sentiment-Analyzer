@@ -76,7 +76,6 @@ with open("catboost1_model.pkl", "rb") as f:
 vector_model = Word2Vec.load("final_model")
 
 vocab_set = set(vector_model.wv.index_to_key)
-
 def document_vector(doc):
     words = [word for word in doc.split() if word in vocab_set]
     if words:
