@@ -75,14 +75,12 @@ with open("catboost1_model.pkl", "rb") as f:
 
 vector_model = Word2Vec.load("final_model")
 
-
-import cupy as cp
 vocab_set = set(vector_model.wv.index_to_key)
 
 def document_vector(doc):
     words = [word for word in doc.split() if word in vocab_set]
     if words:
-        return cp.asnumpy(cp.mean(vector_model.wv[words], axis=0))
+        return np.mean([vector_model.wv[word] for word in words], axis=0)
     else:
         return np.zeros(vector_model.vector_size)
 
