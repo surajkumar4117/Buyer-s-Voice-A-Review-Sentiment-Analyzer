@@ -1,13 +1,11 @@
-# Buyers-Voice-Review-Sentiment-Analyzer
+## 🚰 End-to-End NLP Project – Buyer’s Voice: A Review Sentiment Analyzer
+
+**Buyer’s Voice** is a full-stack, NLP-powered sentiment analysis system designed to analyze customer product reviews and classify them into positive or negative sentiments. The project is deployed as an interactive **Streamlit web application** and is capable of ingesting raw text input, performing deep preprocessing, and providing real-time predictions with explanations. This project is ideal for showcasing **NLP, ML deployment, and data pipeline skills** on your resume or portfolio.
 ## 🔗 Live Demo
 
 Click the badge below to open the deployed Streamlit app:
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://buyer-s-voice-a-review-sentiment-analyzer.streamlit.app/)
-
-## 🚰 End-to-End NLP Project – Buyer’s Voice: A Review Sentiment Analyzer
-
-**Buyer’s Voice** is a full-stack, NLP-powered sentiment analysis system designed to analyze customer product reviews and classify them into positive or negative sentiments. The project is deployed as an interactive **Streamlit web application** and is capable of ingesting raw text input, performing deep preprocessing, and providing real-time predictions with explanations. This project is ideal for showcasing **NLP, ML deployment, and data pipeline skills** on your resume or portfolio.
 
 ---
 
