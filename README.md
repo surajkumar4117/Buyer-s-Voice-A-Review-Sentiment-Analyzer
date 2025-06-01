@@ -1,4 +1,4 @@
-# Buyer-s-Voice-A-Review-Sentiment-Analyzer
+# Buyers-Voice-Review-Sentiment-Analyzer
 ## 🔗 Live Demo
 
 Click the badge below to open the deployed Streamlit app:
