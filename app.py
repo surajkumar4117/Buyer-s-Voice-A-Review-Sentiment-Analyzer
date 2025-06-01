@@ -36,6 +36,7 @@ nltk.download('stopwords', quiet=True)
 nltk.download('punkt', quiet=True)
 nltk.download('wordnet', quiet=True)
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 st.markdown("""
 <style>
