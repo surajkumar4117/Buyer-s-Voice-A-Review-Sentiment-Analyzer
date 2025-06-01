@@ -1,0 +1,17 @@
+streamlit
+pandas
+Pillow
+seaborn
+numpy
+matplotlib
+nltk
+spacy
+textblob
+tqdm
+gensim
+catboost
+scikit-learn
+xgboost
+emoji
+contractions
+cupy-cuda11x
