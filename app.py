@@ -69,11 +69,11 @@ user_input = st.text_input(
     "📝 How do you feel about your purchase? Let's find out!",
     help="Type your honest review or opinion about the product here."
 )
-with open("CustomerSentiment/catboost1_model.pkl", "rb") as f:
+with open("catboost1_model.pkl", "rb") as f:
     loaded_model = pickle.load(f)
 
 
-vector_model = Word2Vec.load("CustomerSentiment/final_model")
+vector_model = Word2Vec.load("final_model")
 
 
 import cupy as cp
