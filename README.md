@@ -65,24 +65,3 @@ Businesses often struggle to understand how buyers feel about their products at 
 * **Scikit-learn** and **XGBoost** for modeling
 * **Streamlit** for UI and deployment
 * **Matplotlib / Seaborn** for EDA (if added)
-
----
-
-### 🚀 Live Demo
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://buyer-s-voice-a-review-sentiment-analyzer.streamlit.app/)
-
----
-
-### 📄 Resume Bullet Example
-
-> ✅ **Buyer’s Voice – Sentiment Analyzer App** – Built and deployed an NLP-based Streamlit application for real-time sentiment analysis of customer reviews. Implemented a full preprocessing pipeline including slang and emoji handling, trained Word2Vec embeddings, and used XGBoost for classification. Achieved high accuracy and interpretability. Hosted live for demo and usage.
-
----
-
-### 📌 Next Steps (Optional Enhancements)
-
-* Add **explainability** via SHAP or LIME
-* Visualize **most common positive/negative keywords**
-* Store review history and model feedback
-* Expand to multi-class sentiment (e.g., neutral)
